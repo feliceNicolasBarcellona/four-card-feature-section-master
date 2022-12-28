@@ -43,7 +43,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .header {
@@ -78,7 +77,6 @@ br {
   flex-wrap: wrap;
   height: 531px;
   width: 100%;
-  background-color: orange;
 }
 
 .cards-container {
