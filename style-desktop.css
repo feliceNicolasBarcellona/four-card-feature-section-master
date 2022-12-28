@@ -63,7 +63,7 @@ main {
 }
 
 .description {
-  font-size: 15.1px;
+  font-size: 1.0067rem;
   color: var(--grayish-blue);
 }
 
@@ -75,7 +75,7 @@ br {
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 531px;
+  height: 35.4rem;
   width: 100%;
 }
 
@@ -88,7 +88,7 @@ br {
   height: 100%;
   align-items: center;
   justify-content: flex-start;
-  padding-right: 5px;
+  padding-right: 0.3333rem;
 }
 
 .mid-top {
@@ -108,51 +108,51 @@ br {
   height: 100%;
   align-items: center;
   justify-content: flex-end;
-  padding-left: 5px;
+  padding-left: 0.3333rem;
 }
 
 .card {
-  height: 251px;
-  width: 351px;
+  height: 16.7333rem;
+  width: 23.4rem;
   background-color:hsl(0, 0%, 100%);
   box-shadow: 0px 20px 30px hsla(229, 6%, 66%, 0.5);
   border-radius: 5px;
-  padding: 27px 32px 32px;
+  padding: 1.8rem 2.1333rem 2.1333rem;
 }
 
 .card-title {
   font-weight: 600;
   color: var(--very-dark-blue);
-  font-size: 20px;
+  font-size: 1.3333rem;
 }
 
 .card-body {
   font-weight: 200;
   color: var(--grayish-blue);
-  font-size: 13.7px;
-  margin: 11px 0 39px;
+  font-size: 0.9133rem;
+  margin: 0.7333rem 0 2.6rem;
 }
 
 svg {
   float: right;
-  width: 64px;
-  height: 64px;
+  width: 4.2667rem;
+  height: 4.2667rem;
 }
 
 .cyan {
-  border-top: 4px solid var(--cyan);
+  border-top: 0.2667rem solid var(--cyan);
 }
 
 .red {
-  border-top: 4px solid var(--red);
+  border-top: 0.2667rem solid var(--red);
 }
 
 .orange {
-  border-top: 4px solid var(--orange);
+  border-top: 0.2667rem solid var(--orange);
 }
 
 .blue {
-  border-top: 4px solid var(--blue);
+  border-top: 0.2667rem solid var(--blue);
 }
 
 .attribution { font-size: 11px; text-align: center; }
