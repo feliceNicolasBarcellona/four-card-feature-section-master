@@ -12,6 +12,148 @@
   --font-family: 'Poppins', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: var(--font-size);
 }
+
+body {
+ background-color: var(--very-light-gray);
+ font-family: var(--font-family);
+}
+
+main {
+  height: 98vh;
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  height: 751.9995px;
+  width: 74rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  text-align: center;
+}
+
+.slogan {
+  font-size: 2.4333rem;
+  font-weight: 200;
+  color:var(--very-dark-blue);
+}
+
+.title {
+  font-weight: 600; 
+  font-size: 2.4333rem;
+  color: var(--very-dark-blue);
+}
+
+.description {
+  font-size: 15.1px;
+  color: var(--grayish-blue);
+}
+
+br {
+  display: block;
+}
+
+.bottom {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 531px;
+  width: 100%;
+}
+
+.cards-container {
+  display: flex;
+  width: 33.333333%;
+}
+
+.left {
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 5px;
+}
+
+.mid-top {
+  height: 50%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mid-bottom {
+  height: 50%;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.right {
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 5px;
+}
+
+.card {
+  height: 251px;
+  width: 351px;
+  background-color:hsl(0, 0%, 100%);
+  box-shadow: 0px 20px 30px hsla(229, 6%, 66%, 0.5);
+  border-radius: 5px;
+  padding: 27px 32px 32px;
+}
+
+.card-title {
+  font-weight: 600;
+  color: var(--very-dark-blue);
+  font-size: 20px;
+}
+
+.card-body {
+  font-weight: 200;
+  color: var(--grayish-blue);
+  font-size: 13.7px;
+  margin: 11px 0 39px;
+}
+
+svg {
+  float: right;
+  width: 64px;
+  height: 64px;
+}
+
+.cyan {
+  border-top: 4px solid var(--cyan);
+}
+
+.red {
+  border-top: 4px solid var(--red);
+}
+
+.orange {
+  border-top: 4px solid var(--orange);
+}
+
+.blue {
+  border-top: 4px solid var(--blue);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
