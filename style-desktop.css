@@ -43,6 +43,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .header {
@@ -59,6 +60,7 @@ main {
   font-weight: 600; 
   font-size: 2.4333rem;
   color: var(--very-dark-blue);
+  margin-bottom: 15px;
 }
 
 .description {
@@ -76,6 +78,7 @@ br {
   flex-wrap: wrap;
   height: 531px;
   width: 100%;
+  background-color: orange;
 }
 
 .cards-container {
